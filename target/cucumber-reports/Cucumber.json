@@ -1,0 +1,120 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on main page",
+            "match": {
+              "location": "stepDefinition.MainPageSD.IamOnMainPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T21:34:16.904Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2747000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.SharedSD.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify your main page",
+        "description": "",
+        "id": "darksky-main-page;verify-your-main-page",
+        "after": [
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.SharedSD.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 119000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter lowest temperature on main page",
+            "match": {
+              "location": "stepDefinition.MainPageSD.lowestTemp()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter highest temperature on main page",
+            "match": {
+              "location": "stepDefinition.MainPageSD.highestTemp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify weather forecast",
+            "match": {
+              "location": "stepDefinition.MainPageSD.forecast()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web"
+          },
+          {
+            "name": "@main"
+          }
+        ]
+      }
+    ],
+    "name": "darksky main page",
+    "description": "",
+    "id": "darksky-main-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@web",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

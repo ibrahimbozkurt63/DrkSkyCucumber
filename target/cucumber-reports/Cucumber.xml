@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.299">
+<testcase classname="darksky main page" name="Verify your main page" time="3.167">
+<system-out><![CDATA[Given I am on main page.....................................................passed
+When I enter lowest temperature on main page................................passed
+And I enter highest temperature on main page................................passed
+Then I verify weather forecast..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
